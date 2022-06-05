@@ -1,0 +1,28 @@
+.home{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home-main{
+    width: 80%;
+
+}
+.home-right{
+    width: 20%;
+
+}
+@media (max-width:900px){
+    .home{
+        flex-direction: column;
+    }
+    .home-main{
+        width: 100%;
+    }
+    .home-right{
+        width: 100%;
+    }
+}

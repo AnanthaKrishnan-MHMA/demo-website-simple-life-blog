@@ -1,0 +1,38 @@
+.widgetmultiple-main{
+    color: #143774;
+    background: #EBEBEB;
+    border: 1px solid white;
+    margin: 2em 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+.widgetmultiple-sub{
+    background: #fff;
+    margin: 1em;
+    padding: 1em;
+
+}
+.widgetmultiple-img{
+    width: 90%;
+    display: block;
+    padding: 1em 0;
+}
+.widgetmultiple-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+.widgetmultiple-content{
+    font-size: 0.825rem;
+    font-weight: 300;    
+}
+.widgetmultiple-sub-box{
+    border-bottom: 1px solid #707070;
+}
+@media (max-width:900px){
+    .widgetmultiple-img{
+        width: 100%;
+        height: 9em;
+        object-fit: cover;
+    }
+}

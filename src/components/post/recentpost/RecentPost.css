@@ -1,0 +1,75 @@
+.recPost{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 3.5em;
+    padding-bottom: 3em;
+    font-family: 'Ubuntu',sans-serif;
+    color: #707070;
+
+}
+.recPost__left{
+    width: 25%;
+}
+.recPost__right{
+    width: 65%;
+}
+.recPost__img{
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+.date-and-time{
+    font-size: 1rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.recPost__title{
+    color: #143774;
+    font-family: 'lora',serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+.recPost__content{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.recPost__content span{
+    font-weight: 700;
+}
+.recPost__content a{
+    color: #1792D2;
+}
+.recPost__readmore{
+    color: #1792D2;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+.recPost__titlebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+@media (max-width:900px){
+    .recPost{
+        flex-direction: column;
+    }
+    .recPost__left{
+        width: 100%;
+        text-align: right;
+    }
+    .recPost__right{
+        width: 100%;
+    }
+    .recPost__img{
+        width: 100%;
+        height: auto;
+        object-fit: none;
+    }
+    
+}
