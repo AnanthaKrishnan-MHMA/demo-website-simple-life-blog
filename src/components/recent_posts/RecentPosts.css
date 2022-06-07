@@ -1,3 +1,28 @@
-p{
-    font-size: 30px;
+.recentPost{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recentPost-main{
+    width: 80%;
+
+}
+.recentPost-right{
+    width: 20%;
+
+}
+@media (max-width:900px){
+    .recentPost{
+        flex-direction: column;
+    }
+    .recentPost-main{
+        width: 100%;
+    }
+    .recentPost-right{
+        width: 100%;
+    }
 }

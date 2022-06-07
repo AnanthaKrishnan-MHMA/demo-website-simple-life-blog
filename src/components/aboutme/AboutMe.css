@@ -1,3 +1,28 @@
-p{
-    font-size: 30px;
+.aboutMe{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutMe-main{
+    width: 80%;
+
+}
+.aboutMe-right{
+    width: 20%;
+
+}
+@media (max-width:900px){
+    .aboutMe{
+        flex-direction: column;
+    }
+    .aboutMe-main{
+        width: 100%;
+    }
+    .aboutMe-right{
+        width: 100%;
+    }
 }

@@ -6,9 +6,9 @@
     /* justify-content: space-around; */
 }
 .sticky{
-    transition: 0.5s;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
 }
 .footer{
     margin-top: auto;

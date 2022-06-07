@@ -12,9 +12,12 @@ $(document).ready(function () {
     $('.active').removeClass('active')
     $(this).addClass('active');
   })
+  $('.hamberger').click(function (){
+    $('.nav__list').toggleClass('hide')
+  })
 });
 $(window).scroll(function(){
-  if($(this).scrollTop() > 100){
+  if($(this).scrollTop() > 50){
       $('.navbar').addClass('sticky collapse')
   } else{
       $('.navbar').removeClass('sticky collapse')

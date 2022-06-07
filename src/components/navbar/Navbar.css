@@ -8,7 +8,6 @@ body{
     justify-content: center;
     list-style: none;
     padding: 0;                         
-    /* border: 3px dotted red; */
 }
 .nav__list_links{
     margin: 0 1em;
@@ -50,6 +49,7 @@ body{
     letter-spacing: 0.12rem;
 }
 .hamberger{
+    margin: 1em auto;
     display: none;
 }
 
@@ -66,8 +66,11 @@ body{
         margin-bottom: 2em;
     }
     .hamberger{
-        margin: 0 auto;
         display: block;
+    }
+    .hide{
+        position: fixed;
+        top: -100%;
     }
     .collapse{
         background: rgb(197, 195, 195);
@@ -79,11 +82,9 @@ body{
         justify-content: space-around;
         padding: 5em 0;
     }
-    .nav__brand{
-        /* margin-right: 20em; */
-    }
-    .nav__list{
-        /* margin-left: 20em; */
+    .collapse{
+        background: rgb(197, 195, 195);
+        padding: 0;
     }
 }
 
